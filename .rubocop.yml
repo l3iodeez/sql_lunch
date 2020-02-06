@@ -1,0 +1,19 @@
+# docs can be found at;
+# - Core (most cops) https://docs.rubocop.org/en/stable/
+# - Rails https://docs.rubocop.org/projects/rails/en/stable/cops_rails/
+
+# Configuration
+# These rules are for configuration purposes
+
+Metrics/LineLength:
+  Max: 183858
+
+Style/Documentation:
+  Enabled: false
+
+Style/MixinUsage:
+  Exclude:
+    - './bin/*'
+
+Style/ClassAndModuleChildren:
+  Enabled: false
