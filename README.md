@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This example application is a simple Rails app with a few models intended for testing ActiveRecord methods in a controlled environment. Its meant to be used from the Rails console and includes no controllers or views. 
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+To set up:
+1. `bundle install`
+2. `bundle exec rails db:setup`
+3. `bundle exec rails c`
